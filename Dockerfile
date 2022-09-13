@@ -1,4 +1,4 @@
-FROM centos
+FROM ubi8/ubi:latest 
 MAINTAINER Sander <mail@sandervanvugt.nl>
 
 # Add repo file
