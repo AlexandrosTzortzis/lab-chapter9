@@ -2,7 +2,7 @@ FROM registry.redhat.io/ubi8/ubi:latest
 MAINTAINER Sander <mail@sandervanvugt.nl>
 
 # Add repo file
-ADD ./sander.repo /etc/yum.repos.d/
+#ADD ./sander.repo /etc/yum.repos.d/
 
 # Install cool software
 RUN yum --assumeyes update && \
